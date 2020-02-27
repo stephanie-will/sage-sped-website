@@ -1,0 +1,411 @@
+/*****BASE STYLES*****/
+
+body {
+      font-family: 'Nanum Gothic', sans-serif;
+      color: #2b2b2b;
+}
+
+
+/*****HOME PAGE*****/
+/********************/
+
+/*****GRID******/
+
+.full-width {
+      max-width: 100%;
+      margin: 0 35px;
+}
+
+.half-width {
+      width: 50%;
+      float: left;
+}
+
+.third-width {
+      width: 33%;
+      float: left;
+}
+
+#about, #work, #contact {
+      height: 600px;
+}
+
+/*****HEADER*****/
+
+#home-page header {
+      height: 100px;
+      background-color: #fff;
+      margin: 45px 0px;
+}
+
+#home-page header h1 {
+    color: #2b2b2b;
+    font-family:'Lora', serif;
+    font-size: 40px;
+    font-variant:small-caps;
+    margin-top: 80px;
+}
+
+nav {
+      margin-top: 100px;
+}
+
+nav ul li{
+      display: inline-block;
+}
+
+ul li a:hover {
+      color: black;
+      font-size: 26px;
+      font-weight: bolder;
+}
+
+nav ul li a{
+      color: #9b9b9b;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-left: 80px;
+      border: 1px solid #fff;
+      background-color: #fff;
+      padding: 10px 20px;
+}
+
+/*****HI SECTION*****/
+
+#hi h2 {
+  clear: both;
+  color: #9b9b9b;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 100px;
+}
+
+#hi, h2 span {
+  color: #2b2b2b;
+}
+
+#hi {
+  height: 600px;
+  background: url('../img/kids2.png');
+  background-size: 80%;
+  background-position: center;
+  margin: 0px 0px;
+}
+
+/*****ABOUT SECTION*****/
+
+#about .full-width {
+      padding: 80px 0;
+}
+
+#about h2 {
+      font-family: 'Lora', serif;
+      font-size: 36px;
+      padding-left: 50px;
+}
+
+#about p {
+      font-size: 21px;
+      color: #7f7f7f;
+      line-height:40px;
+      padding-left: 50px;
+      padding-right:50px;
+}
+
+/*****WORK SECTION*****/
+
+#work {
+      background-color: #f9ceb7; ebe5e5;
+      text-align: center;
+      margin: 50px;
+}
+
+#work .full-width {
+      padding: 115px 0;
+}
+
+#work img {
+      padding-bottom: 30px;
+}
+
+#work h3 {
+      font-size: 24px;
+      line-height: 32px;
+      width: 190px;
+      margin: 0 auto;
+}
+
+#work p {
+      font-family: 'Lora', serif;
+      font-size: 18px;
+      line-height: 30px;
+      padding: 0 50px;
+}
+
+/******CONTACT SECTION*****/
+
+#contact {
+      background-color: #282828;
+      width: 100%;
+      clear: both;
+}
+
+#contact .full-width {
+      padding: 40px 0;
+}
+
+
+
+#contact img#contact-img {
+      margin-left: 20px;
+      border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul  {
+      padding-left: 115px;
+}
+
+#envelope {
+      padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+      font-family: 'Lora', serif;
+      font-size: 36px;
+      line-height: 44px;
+      color: #ebe5e5;;
+}
+
+#contact h3 {
+      color: #ebe5e5;
+}
+
+#contact #email-header {
+      font-size: 32px;
+      font-weight:400;
+      line-height: 44px;
+      margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+      font-size: 29px;
+      font-weight: bold;
+      line-height: 44px;
+      margin: 40px 0 0 0;
+}
+
+#contact a {
+      color: #ebe5e5;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+}
+
+#contact ul {
+      list-style: none;
+}
+
+#contact ul li {
+      display: inline-block;
+}
+
+#contact ul img {
+      font-size: 32px;
+      padding-right: 48px;
+}
+
+
+
+
+
+
+
+
+
+/*******ABOUT PAGE******/
+
+
+
+
+
+
+
+
+
+
+
+/********HEADER********/
+
+
+ #about-page header {
+   height: 100px;
+   background-color: #fff;
+   margin: 45px 0px;
+   }
+
+#about-page header h1{
+   font-family:'Lora', serif;
+   font-size:  40px;
+   font-variant: small-caps;
+   font-weight: bolder;
+   color: #2b2b2b;
+   margin-top: 80px;
+   margin-left: 0px;
+}
+
+
+#about-page header nav{
+  padding: 10 0 10 25px;
+}
+
+/******TOP SECTION*****/
+
+#about-page .container{
+  background-color: #ebe5e5;
+  padding: 50px 150px;
+}
+
+.welcome  {
+  font-family: 'Lora', serif;
+  font-size: 35px;
+  font-variant: small-caps;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+}
+
+.welcome-description  {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin: 40px;
+}
+
+#about-page .top-section {
+  background-color: #fff;
+  margin: 50px 0px;
+  overflow: auto;
+}
+
+#about-page .pencil-image img{
+  float: left;
+}
+
+.pencil-image img{
+  width: 800px;
+  height: 700px;
+  margin: 30px 0px 0px 30px;
+}
+
+#about-page .services-and-merit{
+  float: left;
+  width: 30%;
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 30px;
+
+}
+
+.services-and-merit img{
+  padding-bottom: 30px;
+}
+
+#about-page .my-services {
+  position: absolute;
+  left: 40%;
+  bottom: 70%;
+  background-color: #fff;
+  padding: 20px 40px;
+  text-decoration: underline;
+}
+
+#about-page .my-merit{
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+  background-color: #fff;
+  padding: 20px 40px;
+  text-decoration: underline;
+
+}
+
+
+/******bottom-section*****/
+
+#about-page .bottom-section{
+  background-color: #fff;
+  margin: 50px 0px;
+  overflow: auto;
+}
+
+#about-page .about-description{
+  float:left;
+  width: 60%;
+}
+
+.about-description p{
+    color: d#282828;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 140%;
+    letter-spacing: 1px;
+    margin: 180px 140px 100px 140px;
+
+  }
+
+#about-page .laura-image img{
+  float:right;
+}
+
+.laura-image img{
+  width:35%;
+  height: auto;
+  margin: 30px;
+
+}
+
+
+
+
+
+/*******WORK PAGE******/
+/***********************/
+
+#work-page .top-section {
+  height: 300px;
+  background: url('../img/mandt.png');
+  clear: both;
+}
+
+#mandt {
+  height: auto;
+}
+
+#mandt p {
+  padding-bottom: 60px;
+
+}
+
+/******TESTIMONIAL******/
+/**********************/
+
+#testimonial {
+      background-color: #ebebeb;
+      width: 100%;
+      clear: both;
+      height: auto;
+}
+
+#testimonial p{
+  padding: 100px;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+}
